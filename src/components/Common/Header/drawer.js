@@ -12,7 +12,7 @@ export default function TemporaryDrawer() {
   );
 
   useEffect(() => {
-    if (localStorage.getItem("theme") == "dark") {
+    if (localStorage.getItem("theme") === "dark") {
       setDark();
     } else {
       setLight();
