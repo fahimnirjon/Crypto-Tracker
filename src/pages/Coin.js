@@ -26,7 +26,7 @@ function Coin() {
     if (id) {
       getData();
     }
-  }, [id]);
+  }, []);
 
   const getData = async () => {
     setLoading(true);
