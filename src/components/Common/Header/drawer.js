@@ -20,7 +20,7 @@ export default function TemporaryDrawer() {
   }, []);
 
   const changeMode = () => {
-    if (localStorage.getItem("theme") != "dark") {
+    if (localStorage.getItem("theme") !== "dark") {
       setDark();
     } else {
       setLight();
